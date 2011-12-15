@@ -5,7 +5,7 @@ require "bundler/setup"
 require "twitter"
 require "helpers"
 
-set :conversion, "1 usd to cop"
+set :conversion, "1 cad to cop"
 
 get "/" do
   parse_value(fetch_data)
